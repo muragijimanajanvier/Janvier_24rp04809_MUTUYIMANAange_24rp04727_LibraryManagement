@@ -1,0 +1,34 @@
+/* home.css */
+.hero-section {
+    background: linear-gradient(135deg, #3498db 0%, #2c3e50 100%);
+    animation: fadeIn 1s ease;
+    margin-top: -20px;
+    border-radius: 0 0 10px 10px !important;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.feature-card {
+    border: 2px solid transparent;
+    transition: all 0.3s;
+}
+
+.feature-card:hover {
+    border-color: #3498db;
+    transform: translateY(-5px);
+}
+
+.stat-card h2 {
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.stat-card p {
+    color: #666;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}

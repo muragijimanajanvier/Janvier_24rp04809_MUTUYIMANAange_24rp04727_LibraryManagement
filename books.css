@@ -1,0 +1,41 @@
+/* books.css */
+.book-card {
+    height: 100%;
+    transition: transform 0.3s;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+}
+
+.book-card img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.book-actions {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.book-actions .btn {
+    flex: 1;
+    min-width: 100px;
+}
+
+.search-box {
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.category-badge {
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.category-badge:hover {
+    background-color: #3498db !important;
+    color: white;
+}

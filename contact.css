@@ -1,0 +1,117 @@
+/* contact.css */
+.hero-section {
+    background: linear-gradient(rgba(52, 152, 219, 0.1), rgba(41, 128, 185, 0.1));
+    border-radius: 10px;
+    margin-top: -20px;
+}
+
+.contact-info-card {
+    background: white;
+    border-left: 5px solid #3498db;
+}
+
+.contact-form-card {
+    background: white;
+    border-left: 5px solid #27ae60;
+}
+
+.contact-item {
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.contact-item:last-child {
+    border-bottom: none;
+}
+
+.contact-icon {
+    width: 50px;
+    height: 50px;
+    background: rgba(52, 152, 219, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links .btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.map-placeholder {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 12px 15px;
+    border: 2px solid #e0e0e0;
+}
+
+.form-control:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+}
+
+textarea.form-control {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.btn-primary {
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.accordion-button {
+    font-weight: 600;
+    padding: 15px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgba(52, 152, 219, 0.1);
+    color: #2c3e50;
+}
+
+.accordion-body {
+    padding: 20px;
+}
+
+/* Character counter */
+#charCount {
+    font-size: 12px;
+}
+
+.char-limit-warning {
+    color: #e74c3c;
+}
+
+.char-limit-ok {
+    color: #27ae60;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .contact-info-card, .contact-form-card {
+        padding: 20px;
+    }
+    
+    .hero-section {
+        padding: 30px 20px;
+    }
+    
+    .map-placeholder {
+        padding: 30px 20px;
+    }
+}
